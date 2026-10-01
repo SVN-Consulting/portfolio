@@ -44,6 +44,16 @@ export default function RootLayout({
         geistMono.variable,
       )}
       suppressHydrationWarning>
+      <head>
+        <link rel='icon' href='/favicon.ico' sizes='any' />
+        <link rel='icon' href='/icon.ico' type='image/x-icon' sizes='16x16' />
+        <link
+          rel='apple-touch-icon'
+          href='/apple-icon.png'
+          type='image/png'
+          sizes='180x180'
+        />
+      </head>
       <body className='min-h-full flex flex-col'>
         <NextIntlClientProvider>
           <Navbar />

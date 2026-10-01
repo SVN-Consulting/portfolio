@@ -23,6 +23,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 bun-debug.log*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions 
+yarn.lock
 
 # Vercel
 .vercel/

@@ -1,12 +1,10 @@
 import { useTranslations } from 'next-intl';
 import { Metadata } from 'next';
-import Image from 'next/image';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { SocialIcons } from '@/components/feature/';
 import { techStack } from '@/data/techstack';
-import Profile from '@/public/profile.jpg';
 
 export const metadata: Metadata = {
   title: 'About Me',
